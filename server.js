@@ -21,3 +21,5 @@ const authors = [
 const books = [
 	{ id: 1, name: 'Harry Potter and the Chamber of Secrets', authorId: 1 },
 	{ id: 2, name: 'Harry Potter and the Prisoner of Azkaban', authorId: 1 },
+    { id: 3, name: 'Harry Potter and the Goblet of Fire', authorId: 1 },
+	{ id: 4, name: 'The Fellowship of the Ring', authorId: 2 },
