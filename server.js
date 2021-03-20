@@ -6,3 +6,5 @@ const {
     GraphQLObjectType,
     GraphQLString,
     GraphQLList,
+    GraphQLInt,
+    GraphQLNonNull
