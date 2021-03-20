@@ -4,3 +4,5 @@ const expressGraphQL = require('express-graphql')
 const {
     GraphQLSchema,
     GraphQLObjectType,
+    GraphQLString,
+    GraphQLList,
