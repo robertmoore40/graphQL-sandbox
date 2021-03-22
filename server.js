@@ -48,3 +48,5 @@ const BookType = new GraphQLObjectType({
 
     const AuthorType = new GraphQLObjectType({
         name: 'Author',
+        description: 'This represents a author of a book',
+        fields: () => ({
