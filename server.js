@@ -42,3 +42,6 @@ const BookType = new GraphQLObjectType({
                 return authors.find(author => author.id === book.authorId)
             }
           }
+        })
+    })
+    
