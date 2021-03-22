@@ -31,3 +31,5 @@ const books = [
 
 const BookType = new GraphQLObjectType({
     name: 'Book',
+    description: 'This represents a book written by an author',
+    fields: () => ({
