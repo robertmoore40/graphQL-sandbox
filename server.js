@@ -37,3 +37,5 @@ const BookType = new GraphQLObjectType({
         name: { type: GraphQLNonNull(GraphQLString) },
         authorId: { type: GraphQLNonNull(GraphQLInt) },
         author: {
+            type: AuthorType,
+            resolve: (book) => {
