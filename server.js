@@ -45,3 +45,6 @@ const BookType = new GraphQLObjectType({
         })
     })
     
+
+    const AuthorType = new GraphQLObjectType({
+        name: 'Author',
