@@ -80,3 +80,5 @@ const BookType = new GraphQLObjectType({
         resolve: () => books
     },
     authors: {
+        type: new GraphQLList(AuthorType),
+        description: 'List of All Authors',
