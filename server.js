@@ -60,3 +60,7 @@ const BookType = new GraphQLObjectType({
                 }
             })
           })
+
+
+          const RootQueryType = new GraphQLObjectType({
+            name: 'Query',
