@@ -74,3 +74,6 @@ const BookType = new GraphQLObjectType({
         },
         resolve: (parent, args) => books.find(book => book.id === args.id)
     },
+    books: {
+        type: new GraphQLList(BookType),
+        description: 'List of All Books',
