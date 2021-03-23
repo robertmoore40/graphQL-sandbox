@@ -66,3 +66,5 @@ const BookType = new GraphQLObjectType({
             name: 'Query',
             description: 'Root Query',
   fields: () => ({
+    book: {
+        type: BookType,
