@@ -68,3 +68,5 @@ const BookType = new GraphQLObjectType({
   fields: () => ({
     book: {
         type: BookType,
+        description: 'A Single Book',
+        args: {
