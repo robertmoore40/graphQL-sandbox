@@ -90,3 +90,5 @@ const BookType = new GraphQLObjectType({
         args: {
             id: { type: GraphQLInt }
           },
+          resolve: (parent, args) => authors.find(author => author.id === args.id)
+        }
