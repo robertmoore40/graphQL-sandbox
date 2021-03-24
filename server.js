@@ -87,3 +87,6 @@ const BookType = new GraphQLObjectType({
     author: {
         type: AuthorType,
         description: 'A Single Author',
+        args: {
+            id: { type: GraphQLInt }
+          },
