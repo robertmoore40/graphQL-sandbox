@@ -85,3 +85,5 @@ const BookType = new GraphQLObjectType({
         resolve: () => authors
     },
     author: {
+        type: AuthorType,
+        description: 'A Single Author',
