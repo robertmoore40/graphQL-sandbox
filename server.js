@@ -94,3 +94,6 @@ const BookType = new GraphQLObjectType({
         }
     })
 })
+
+const RootMutationType = new GraphQLObjectType({
+    name: 'Mutation',
