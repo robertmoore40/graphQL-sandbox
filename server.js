@@ -114,3 +114,5 @@ const RootMutationType = new GraphQLObjectType({
         },
         addAuthor: {
             type: AuthorType,
+            description: 'Add an author',
+            args: {
