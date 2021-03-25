@@ -124,3 +124,5 @@ const RootMutationType = new GraphQLObjectType({
                 return author
             }
         }
+    })
+})
