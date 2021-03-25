@@ -99,3 +99,5 @@ const RootMutationType = new GraphQLObjectType({
     name: 'Mutation',
     description: 'Root Mutation',
     fields: () => ({
+        addBook: {
+            type: BookType,
