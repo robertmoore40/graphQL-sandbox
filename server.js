@@ -130,3 +130,5 @@ const schema = new GraphQLSchema({
 
 app.use('/graphql', expressGraphQL({
     schema: schema,
+    graphiql: true
+}))
