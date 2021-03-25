@@ -118,3 +118,5 @@ const RootMutationType = new GraphQLObjectType({
             args: {
                 name: { type: GraphQLNonNull(GraphQLString) }
             },
+            resolve: (parent, args) => {
+                const author = { id: authors.length + 1, name: args.name }
